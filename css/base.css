@@ -1,0 +1,27 @@
+:root {
+  --blue-100: #96b9fd;
+  --blue-200: #7ba4fc;
+  --blue-300: #5081fb;
+  --blue-dark: #051d3b;
+
+  --mac-green: #27c93f;
+  --mac-red: #ff5f56;
+  --mac-yellow: #ffbd2e;
+
+  --inter: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--inter);
+  background-color: var(--blue-dark);
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem;
+}

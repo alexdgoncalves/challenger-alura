@@ -1,0 +1,43 @@
+.menu-list {
+  align-items: center;
+
+  list-style: none;
+
+  padding: 0.5rem 0;
+}
+
+.menu-editor {
+  padding: 1rem;
+
+  background-color: var(--blue-100);
+
+  border-radius: 16px;
+}
+
+.menu-comunidade {
+  padding: 1rem;
+
+  background-color: var(--blue-300);
+
+  border-radius: 16px;
+}
+
+.menu-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding-right: 0.5rem;
+
+  text-decoration: none;
+}
+
+.menu-link p {
+  padding: 0 1rem;
+
+  color: #ffffff;
+}
+
+.opacity {
+  opacity: 0.5;
+}
